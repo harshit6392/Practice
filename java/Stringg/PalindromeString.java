@@ -5,6 +5,7 @@ public class PalindromeString {
         int n=str.length();
         for(int i=0;i<n/2;i++){
             if(str.charAt(i) != str.charAt(n-i-1)){
+                System.out.println(str.toUpperCase() + " is not a palindrome");
                 return false;
             }
         }

@@ -14,7 +14,7 @@ public class Kadanes {
         System.out.println("Maximum sum of sub array is "+maxSum);
     }
     public static void main(String[] args) {
-        int arr[]={1,2,3,4};
+        int arr[]={2,4,6,8,10};
         kadanesAlgo(arr);
     }
 }
