@@ -30,6 +30,6 @@ public class NumberToString {
         return result.toString().trim();
     }
     public static void main(String[] args) {
-        System.out.println(nameOfNumber(0000));
+        System.out.println(nameOfNumber(1234567890));
     }
 }
